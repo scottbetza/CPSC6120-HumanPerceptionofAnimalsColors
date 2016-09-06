@@ -1,0 +1,8 @@
+Gazepoint Analysis,v3.1.9
+Processed on,Tue Dec 22 08:48:59 2015
+
+AOI Summary
+Media ID, Media Name, Media Duration (sec - U=UserControlled), AOI ID, AOI Name, AOI Start (sec), AOI Duration (sec - U=UserControlled), Viewers (#), Total Viewers (#), Ave Time to 1st View (sec), Ave Time Viewed (sec), Ave Time Viewed (%), Ave Fixations (#), Revisitors (#), Average Revisits (#), 
+
+AOI Statistics (for each user)
+Media ID, Media Name, Media Duration (sec - U=UserControlled), AOI ID, AOI Name, AOI Start, AOI Duration (sec - U=UserControlled), User ID, User Name, User Gender, User Age, Time to 1st View (sec), Time Viewed (sec), Time Viewed (%), Fixations (#), Revisits (#), 
