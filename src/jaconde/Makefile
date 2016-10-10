@@ -9,7 +9,7 @@ ifeq ($(UNAME),Darwin)
 #PYTHON = /usr/local/bin/python
 #PYTHON = /usr//bin/python
 #PYTHON = /sw//bin/python2.7
-PYTHON = python2
+PYTHON = python
 R = /usr/local/bin/R
 endif
 
