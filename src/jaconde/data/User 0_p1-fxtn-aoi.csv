@@ -1,0 +1,5 @@
+aoi_order,timestamp,x,y,duration,prev_sacc_amplitude,aoi_label,aoi_line,word,word_length_signs
+None,0.020860,874.144940,494.293635,1.023910,0.000000,face,None,None,None
+None,1.533610,907.102183,411.293961,1.333220,0.000000,face,None,None,None
+None,2.913440,1030.863691,622.103311,0.730210,244.453457,face,None,None,None
+None,3.650440,1040.085295,487.608320,1.138720,134.810758,face,None,None,None
