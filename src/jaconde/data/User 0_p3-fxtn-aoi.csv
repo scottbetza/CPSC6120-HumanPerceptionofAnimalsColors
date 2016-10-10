@@ -1,8 +1,0 @@
-aoi_order,timestamp,x,y,duration,prev_sacc_amplitude,aoi_label,aoi_line,word,word_length_signs
-None,0.022870,975.196160,429.050880,0.013130,0.000000,face,None,None,None
-None,0.038480,968.111158,442.086265,0.339400,0.000000,face,None,None,None
-None,0.404830,996.861399,612.888381,0.488920,173.204905,face,None,None,None
-None,1.114490,1029.140480,385.157120,0.020110,230.007535,face,None,None,None
-None,1.168350,1208.874397,392.107655,0.489020,179.868260,face,None,None,None
-None,5.073240,996.646400,380.711040,0.060320,212.533775,face,None,None,None
-None,5.140230,1057.996800,418.114560,0.013560,71.853287,face,None,None,None
