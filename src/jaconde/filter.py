@@ -226,7 +226,7 @@ def main(argv):
 
       if stimulus == 'image1' or stimulus == 'p3':
         stimulus = "image1"
-      elif stimulus == 'p2':
+      elif stimulus == 'p2' or stimulus == 'p1':
         stimulus = "painting1016x1536"
 
       x_bl = float(entry[X_BL])
@@ -275,7 +275,7 @@ def main(argv):
     imagebase, ext = os.path.splitext(base.split('_')[1])
     if imagebase == 'image' or imagebase == 'p3':
       imagebase = "image1"
-    elif imagebase == 'p2':
+    elif imagebase == 'p2' or imagebase == 'p1':
       imagebase = "painting1016x1536"
     print "Image: ", image, "[", imagebase, "]"
 
