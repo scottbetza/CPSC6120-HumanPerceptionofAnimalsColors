@@ -16,8 +16,8 @@ def catCSVFile(infile,df,ct):
   # extract stimulus name and subj id
   stimulus = base.split('_')[1].split('-')[0]
   subj = base.split('_')[0]
-  if stimulus == 'p1' or stimulus == 'p3':
-    stimulus = "puntos1016x1536"
+  if stimulus == 'image1':
+    stimulus = "image1"
   elif stimulus == 'p2':
     stimulus = "painting1016x1536"
   print "stim = ", stimulus

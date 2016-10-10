@@ -224,8 +224,8 @@ def main(argv):
       stimulus = entry[TASK_ID].replace('\'','')
       type = entry[AOI_LABEL]
 
-      if stimulus == 'p1' or stimulus == 'p3':
-        stimulus = "puntos1016x1536"
+      if stimulus == 'image1' or stimulus == 'p3':
+        stimulus = "image1"
       elif stimulus == 'p2':
         stimulus = "painting1016x1536"
 
@@ -273,8 +273,8 @@ def main(argv):
 
     # extract stimulus name
     imagebase, ext = os.path.splitext(base.split('_')[1])
-    if imagebase == 'p1' or imagebase == 'p3':
-      imagebase = "puntos1016x1536"
+    if imagebase == 'image' or imagebase == 'p3':
+      imagebase = "image1"
     elif imagebase == 'p2':
       imagebase = "painting1016x1536"
     print "Image: ", image, "[", imagebase, "]"
