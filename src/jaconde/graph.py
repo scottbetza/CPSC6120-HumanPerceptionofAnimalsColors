@@ -72,10 +72,10 @@ def main(argv):
   # Enable/disable butterworth smoothing.
   smooth = False
   # screen height in pixels
-  width = 1600
-  height = 900
+  width = 1680
+  height = 1050
   # screen diagonal (in inches)
-  screen = 17
+  screen = 22
   # viewing distance (in inches)
   dist = 23.62
   # sampling rate
@@ -242,10 +242,10 @@ def main(argv):
       stimulus = entry[TASK_ID].replace('\'','')
       type = entry[AOI_LABEL]
 
-      if stimulus == 'image1' or stimulus == 'p1' or stimulus == 'p2':
-        stimulus = "image1"
-      elif stimulus == 'p2':
-        stimulus = "painting1016x1536"
+      #if stimulus == 'image1' or stimulus == 'p1' or stimulus == 'p2':
+      #  stimulus = "image1"
+      #elif stimulus == 'p2':
+      #  stimulus = "painting1016x1536"
 
       x_bl = float(entry[X_BL])
       y_bl = float(entry[Y_BL])
@@ -293,10 +293,10 @@ def main(argv):
 
     # extract stimulus name
     imagebase, ext = os.path.splitext(base.split('_')[1])
-    if imagebase == 'image1' or imagebase == 'p1' or imagebase == 'p3':
-      imagebase = "image1"
-    elif imagebase == 'p2':
-      imagebase = "painting1016x1536"
+    #if imagebase == 'image1' or imagebase == 'p1' or imagebase == 'p3':
+    #  imagebase = "image1"
+    #elif imagebase == 'p2':
+    #  imagebase = "painting1016x1536"
     print "Image: ", image, "[", imagebase, "]"
 
     # create filename of corresponding image

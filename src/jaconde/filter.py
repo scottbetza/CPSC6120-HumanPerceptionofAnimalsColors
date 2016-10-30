@@ -273,11 +273,11 @@ def main(argv):
 
     # extract stimulus name
     imagebase, ext = os.path.splitext(base.split('_')[1])
-    if imagebase == 'image' or imagebase == 'p3':
-      imagebase = "image1"
-    elif imagebase == 'p2' or imagebase == 'p1':
-      imagebase = "painting1016x1536"
-    print "Image: ", image, "[", imagebase, "]"
+#    if imagebase == 'image' or imagebase == 'p3':
+#      imagebase = "image1"
+#    elif imagebase == 'p2' or imagebase == 'p1':
+#      imagebase = "painting1016x1536"
+#    print "Image: ", image, "[", imagebase, "]"
 
     # split filename from extension
     filename, ext = os.path.splitext(base)
@@ -292,10 +292,10 @@ def main(argv):
                             width,height)
  #  scanpath.gridify("%s/%s-aois%s" % (outdir,filename,".csv"),\
  #                          subj,cond,width,height,xtiles,ytiles)
-    scanpath.dumpFixatedAOIs("%s/%s-fxtn-aoi%s" % (outdir,filename,".csv"),\
-                            width,height,\
-                            aoidict,\
-                            imagebase)
+#    scanpath.dumpFixatedAOIs("%s/%s-fxtn-aoi%s" % (outdir,filename,".csv"),\
+#                            width,height,\
+#                            aoidict,\
+#                            imagebase)
 
     scanpath.dumpDAT("%s/%s%s" % (outdir,filename,".dat"),width,height)
  #  scanpath.dumpXML("%s/%s%s" % (outdir,filename,".xml"),width,height)

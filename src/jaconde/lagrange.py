@@ -29,8 +29,8 @@ class Lagrange:
     self.B = np.matrix(np.zeros((6,2),dtype=float))
 
     # initially defined on a 1600x900 image, screen resolution may be different
-    self.w = 1600.0
-    self.h = 900.0
+    self.w = 1680.0
+    self.h = 1050.0
 #   self.w = 2048.0
 #   self.h = 1536.0
 

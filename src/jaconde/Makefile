@@ -18,19 +18,19 @@ SMOOTH = False
 
 #WIDTH = 1600
 #HEIGHT = 900
-WIDTH = 2048
-HEIGHT = 1536
-HERTZ = 150
+WIDTH = 1680
+HEIGHT = 1050
+HERTZ = 60
 DIST = 25.59 # 65 cm
 #DIST = 23.62 # 60 cm
 #DIST = 19.68 # 50 cm
 #DIST = 15.74 # 40 cm
-SCREEN = 13
+SCREEN = 22
 
 #XTILES = 4
 #YTILES = 3
-XTILES = 16
-YTILES = 12
+XTILES = 2
+YTILES = 2
 
 INDIR = ../../exp/jaconde/
 #IMGDIR = ../../stimulus/blank/

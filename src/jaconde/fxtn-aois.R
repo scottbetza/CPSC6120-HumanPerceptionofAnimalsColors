@@ -126,7 +126,7 @@ ggplot(data=sem,aes(x=aoi,y=mean,fill=stimulus)) +
                 width=.2, size=.3, position=position_dodge(.9)) +
   scale_fill_manual(values=c("#cccccc","#969696"),
                     name="AOI",
-                    labels=c("hands","face")) +
+                    labels=c("Correct","Incorrect")) +
   theme_bw(base_size=16) +
 # ylim(0,1) +
   ylab("Fixation Duration (seconds; with SE)\n") +
