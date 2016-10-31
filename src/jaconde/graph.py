@@ -292,7 +292,7 @@ def main(argv):
     print "Processing: ", file, "[", base, "]"
 
     # extract stimulus name
-    imagebase, ext = os.path.splitext(base.split('_')[1])
+    imagebase, ext = os.path.splitext(base.split('-')[1])
     #if imagebase == 'image1' or imagebase == 'p1' or imagebase == 'p3':
     #  imagebase = "image1"
     #elif imagebase == 'p2':
@@ -303,7 +303,7 @@ def main(argv):
     if(haveimage == True):
       print "Image: ", image
     else:
-      image = '{0}.jpg'.format(os.path.join(imgdir,imagebase))
+      image = '{0}.png'.format(os.path.join(imgdir,imagebase))
       print "Image: ", image, "[", imagebase, "]"
 
     # split filename from extension

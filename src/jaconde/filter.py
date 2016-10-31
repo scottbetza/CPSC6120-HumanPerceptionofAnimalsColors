@@ -272,7 +272,7 @@ def main(argv):
     print "Processing: ", file, "[", base, "]"
 
     # extract stimulus name
-    imagebase, ext = os.path.splitext(base.split('_')[1])
+    imagebase, ext = os.path.splitext(base.split('-')[1])
 #    if imagebase == 'image' or imagebase == 'p3':
 #      imagebase = "image1"
 #    elif imagebase == 'p2' or imagebase == 'p1':

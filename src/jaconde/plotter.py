@@ -776,7 +776,7 @@ def renderCalibFixations(baseName,w,h,screen,viewdist,fixations,title,image=None
 # fig = fileName[:-4] + ".pdf"
   plt.savefig(fileName,transparent=True)
 
-def renderAOIs(baseName,w,h,aoidict,key,title,image=None,xtiles=4,ytiles=3):
+def renderAOIs(baseName,w,h,aoidict,key,title,image=None,xtiles=2,ytiles=2):
   # plot
   fileName = baseName + '.pdf'
 
@@ -836,7 +836,7 @@ def renderAOIs(baseName,w,h,aoidict,key,title,image=None,xtiles=4,ytiles=3):
 # fig = fileName[:-4] + ".pdf"
   plt.savefig(fileName,transparent=True)
 
-def renderAOIFixations(baseName,w,h,fixations,aoidict,key,title,image=None,xtiles=4,ytiles=3):
+def renderAOIFixations(baseName,w,h,fixations,aoidict,key,title,image=None,xtiles=2,ytiles=2):
   # plot
   fileName = baseName + '.pdf'
 

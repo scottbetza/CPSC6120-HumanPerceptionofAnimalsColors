@@ -70,7 +70,7 @@ def csv2raw(infile,outdir):
       if outfile is not None:
         outfile.close()
 
-      outfile = open(outdir + subj + '_' + stimulus + '.raw','w+')
+      outfile = open(outdir + subj + '-' + stimulus + '.raw','w+')
 
       # reset coords
       x = ''
