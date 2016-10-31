@@ -1,0 +1,38 @@
+
+R version 3.3.1 (2016-06-21) -- "Bug in Your Hair"
+Copyright (C) 2016 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin16.0.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> library(RColorBrewer)
+> library(colorspace)
+> library(sciplot)
+> library(psych)
+> library(car)
+> library(reshape)
+> library(plyr)
+> library(ggplot2)
+> 
+> #subj,stimulus,timestamp,x,y,duration,prev_sacc_amplitude,aoi_label"
+> df = read.table("fxtn-aois.csv",sep=",",header=TRUE)
+> 
+> df$subj <- factor(df$subj)
+> df$stimulus <- factor(df$stimulus)
+> df$aoi_label <- factor(df$aoi_label)
+> 
+> attach(df)
+> 
+> fit_type1 <- aov(duration ~ (stimulus * aoi_label) + Error(subj/(stimulus)))
