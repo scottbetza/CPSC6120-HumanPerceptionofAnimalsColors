@@ -388,31 +388,31 @@ def main(argv):
                             lagrange,\
                             xtiles,ytiles)
 
-    plotter.renderAOIs("%s/%s-%s" % (pltdir,filename,"aois"),\
-                            width,height,\
-                            aoidict,\
-                            imagebase,\
-                            "AOIs",\
-                            image,\
-                            xtiles,ytiles)
+#    plotter.renderAOIs("%s/%s-%s" % (pltdir,filename,"aois"),\
+#                            width,height,\
+#                            aoidict,\
+#                            imagebase,\
+#                            "AOIs",\
+#                            image,\
+#                            xtiles,ytiles)
 
-    plotter.renderAOIFixations("%s/%s-%s" % (pltdir,filename,"aoi-fxtn"),\
-                            width,height,\
-                            scanpath.fixations,\
-                            aoidict,\
-                            imagebase,\
-                            "AOI Fixations",\
-                            image,\
-                            xtiles,ytiles)
+#    plotter.renderAOIFixations("%s/%s-%s" % (pltdir,filename,"aoi-fxtn"),\
+#                            width,height,\
+#                            scanpath.fixations,\
+#                            aoidict,\
+#                            imagebase,\
+#                            "AOI Fixations",\
+#                            image,\
+#                            xtiles,ytiles)
 
-    plotter.renderFixatedAOIs("%s/%s-%s" % (pltdir,filename,"fxtn-aoi"),\
-                            width,height,\
-                            scanpath.fixations,\
-                            aoidict,\
-                            imagebase,\
-                            "AOI Fixations",\
-                            image,\
-                            xtiles,ytiles)
+#    plotter.renderFixatedAOIs("%s/%s-%s" % (pltdir,filename,"fxtn-aoi"),\
+#                            width,height,\
+#                            scanpath.fixations,\
+#                            aoidict,\
+#                            imagebase,\
+#                            "AOI Fixations",\
+#                            image,\
+#                            xtiles,ytiles)
 
 #   plotter.renderAmfocFixations("%s/%s-%s" % (pltdir,filename,"affx"),\
 #                           width,height,\
